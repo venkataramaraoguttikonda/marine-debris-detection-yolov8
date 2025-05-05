@@ -8,6 +8,17 @@ The pipeline includes:
 - Bounding box evaluation (IoU, precision, recall, F1-score)
 - Visualization of predicted and ground-truth boxes on test images
 
+## Table of Contents
+
+- [Dataset](#dataset)
+- [Installation & Setup](#installation--setup)
+- [Results & Performance](#results--performance)
+  - [Model Training Curves](#model-training-curves)
+  - [Model Predictions vs Ground Truth](#model-predictions-vs-ground-truth)
+- [Folder Structure](#folder-structure)
+- [Citation](#citation)
+- [Acknowledgements](#acknowledgements)
+
 ## Dataset
 
 This project uses satellite imagery and bounding box annotations originally prepared by NASA-IMPACT for marine debris detection.  
