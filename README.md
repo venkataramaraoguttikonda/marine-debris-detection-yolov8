@@ -45,7 +45,7 @@ Each label file contains bounding boxes in this format:
 Create the conda environment:
 
 ```bash
-conda env create -f environment_yolo.yaml
+conda env create -f environment.yaml
 conda activate yolo
 ```
 
