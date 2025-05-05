@@ -134,18 +134,17 @@ The following plots were generated during training and are saved in the `runs/` 
 
 #### Model Predictions vs Ground Truth
 
-A sample grid of predicted and ground-truth bounding boxes is shown below:
+Three sample predictions from the `vis_outputs/` folder are visualized below:
 
-- ![Val Batch Labels](runs/detect/yolov8m_b16/val_batch0_labels.jpg)
-
-For full-resolution predictions overlaid with bounding boxes, refer to the outputs in:
-
-```
-vis_outputs/
-```
+<p align="center">
+  <img src="runs/detect/yolov8m_b16/20170323_152750_0e20_17297-29802-16.jpg" alt="Sample 1" width="32%"/>
+  <img src="runs/detect/yolov8m_b16/20170326_153233_0e26_17057-29746-16.jpg" alt="Sample 2" width="32%"/>
+  <img src="runs/detect/yolov8m_b16/20180313_154258_1008_17028-29718-16.jpg" alt="Sample 3" width="32%"/>
+</p>
 
 Green: ground truth  
 Red: YOLOv8 predictions
+
 
 ## Folder Structure
 
