@@ -3,6 +3,7 @@ yolov8m.pt
 # ----------------------
 # Python & Virtual Env
 # ----------------------
+__pycache__
 __pycache__/
 *.py[cod]
 *.so
