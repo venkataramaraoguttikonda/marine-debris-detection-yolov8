@@ -105,17 +105,12 @@ The following plots were generated during training and are saved in the `runs/` 
 - **Loss and mAP curves:**  
   ![results](runs/detect/yolov8m_b16/results.png)
 
-- **F1 vs Confidence:**  
-  ![F1 Curve](runs/detect/yolov8m_b16/F1_curve.png)
-
-- **Precision vs Confidence:**  
-  ![Precision Curve](runs/detect/yolov8m_b16/P_curve.png)
-
-- **Recall vs Confidence:**  
-  ![Recall Curve](runs/detect/yolov8m_b16/R_curve.png)
-
-- **Precision-Recall Curve:**  
-  ![PR Curve](runs/detect/yolov8m_b16/PR_curve.png)
+<div style="display: flex; gap: 10px;">
+  <img src="runs/detect/yolov8m_b16/F1_curve.png" alt="F1 Curve" width="24%">
+  <img src="runs/detect/yolov8m_b16/P_curve.png" alt="Precision Curve" width="24%">
+  <img src="runs/detect/yolov8m_b16/R_curve.png" alt="Recall Curve" width="24%">
+  <img src="runs/detect/yolov8m_b16/PR_curve.png" alt="PR Curve" width="24%">
+</div>
 
 - **Label distribution:**  
   ![Label Distribution](runs/detect/yolov8m_b16/labels.jpg)
