@@ -53,6 +53,13 @@ Each label file contains bounding boxes in this format:
 
 ## Installation & Setup
 
+Clone the repository:
+
+```bash
+git clone https://github.com/venkataramaraoguttikonda/marine-debris-detection-yolov8.git
+cd marine-debris-detection-yolov8
+```
+
 Create the conda environment:
 
 ```bash
