@@ -106,6 +106,7 @@ The final model was trained for 100 epochs with YOLOv8m (`yolo11m.pt`) at 320×3
 | Recall           | 0.6129  |
 | F1-score         | 0.6162  |
 
+
 ---
 
 #### Model Training Curves
