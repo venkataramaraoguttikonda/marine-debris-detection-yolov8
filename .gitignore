@@ -1,2 +1,44 @@
 yolov8m_final.ipynb
 yolov8m.pt
+# ----------------------
+# Python & Virtual Env
+# ----------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+*.env
+
+# ----------------------
+# Jupyter & Logs
+# ----------------------
+.ipynb_checkpoints/
+*.log
+
+
+# ----------------------
+# YOLOv8 Outputs
+# ----------------------
+runs/
+*.onnx
+*.tflite
+*.torchscript
+*.engine
+
+# ----------------------
+# Data & Visualizations
+# ----------------------
+vis_outputs/
+*.jpg
+*.png
+
+# ----------------------
+# OS/Editor Files
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
