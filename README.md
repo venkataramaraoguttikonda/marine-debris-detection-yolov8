@@ -21,25 +21,26 @@ The pipeline includes:
 
 ## Dataset
 
-This project uses satellite imagery and bounding box annotations originally prepared by NASA-IMPACT for marine debris detection.  
-The dataset is provided in standard **YOLO format** and contains images of marine environments with labeled floating debris.
+The dataset used is from the [NASA-IMPACT Marine Debris ML](https://github.com/NASA-IMPACT/marine_debris_ML) project, containing satellite imagery with YOLO-format bounding box annotations for `marine debris`.
 
-The test data is structured as follows:
+It includes three standard splits:
 
 ```
 data_yolo/
+├── train/
+├── val/
 └── test/
     ├── images/      # Input satellite image tiles (.jpg)
     └── labels/      # Corresponding YOLO annotations (.txt)
 ```
 
-Each label file contains bounding boxes in this format:
+Each `.txt` label file follows the YOLO format:
 ```
 <class_id> <x_center> <y_center> <width> <height>
 ```
 
-> All values are normalized floats (0–1).  
-> This task involves a single class: `marine debris`.
+> Note: This repository only includes the **test set** for evaluating pretrained models.  
+> For full dataset access (train/val), refer to the original NASA-IMPACT repo linked above.
 
 ---
 
