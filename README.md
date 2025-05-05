@@ -195,6 +195,14 @@ If you use this repository or parts of it in your research or project, please ci
 
 ## Acknowledgements
 
-- NASA-IMPACT for the open-source marine debris detection dataset.
-- Ultralytics for the YOLOv8 detection framework.
-- All open-source contributors and developers of PyTorch, OpenCV, and supporting tools.
+This work was developed as part of the **Deep Learning for Computer Vision (DS265)** course at the **Indian Institute of Science (IISc), Bengaluru**.
+
+**Course Instructor:** Prof. R. Venkatesh Babu
+
+**Contributors:**
+- Venkata Ramarao Guttikonda (M.Tech – CAOS, IISc)
+- Ananya Krishna Devupalli (M.Tech – CAOS, IISc)
+
+Special thanks to:
+- **NASA IMPACT** for the open-source MARIDA dataset
+- The open-source communities behind **PyTorch**, **Hugging Face Transformers**, and **Ultralytics YOLO**
