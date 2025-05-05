@@ -49,7 +49,7 @@ conda env create -f environment_yolo.yaml
 conda activate yolo
 ```
 
-To train the model from scratch:
+**To train the model from scratch:**
 
 ```bash
 python src/train_yolo.py
@@ -61,7 +61,7 @@ This downloads `yolov8m.pt` and saves the trained model to:
 runs/detect/yolov8m_b16/weights/best.pt
 ```
 
-The pretrained model is already available at the above path.
+**The pretrained model is already available at the above path.**
 
 To evaluate the model:
 
