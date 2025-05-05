@@ -112,11 +112,10 @@ The following plots were generated during training and are saved in the `runs/` 
   <img src="runs/detect/yolov8m_b16/PR_curve.png" alt="PR Curve" width="24%">
 </div>
 
-- **Label distribution:**  
-  ![Label Distribution](runs/detect/yolov8m_b16/labels.jpg)
-
-- **Label correlation heatmap:**  
-  ![Label Correlogram](runs/detect/yolov8m_b16/labels_correlogram.jpg)
+<div style="display: flex; gap: 10px; margin-top: 10px;">
+  <img src="runs/detect/yolov8m_b16/labels.jpg" alt="Label Distribution" width="49%">
+  <img src="runs/detect/yolov8m_b16/labels_correlogram.jpg" alt="Label Correlogram" width="49%">
+</div>
 
 ---
 
