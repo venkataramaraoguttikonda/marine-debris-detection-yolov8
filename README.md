@@ -4,7 +4,7 @@ This repository presents a modular object detection pipeline for identifying **m
 We fine-tune a YOLOv8m model on geospatial satellite data, enabling detection of floating debris and similar marine pollutants in real-world ocean conditions.
 
 The pipeline includes:
-- Inference using pretrained YOLOv8m model
+- Inference using YOLOv8m model
 - Bounding box evaluation (IoU, precision, recall, F1-score)
 - Visualization of predicted and ground-truth boxes on test images
 
@@ -39,7 +39,7 @@ Each `.txt` label file follows the YOLO format:
 <class_id> <x_center> <y_center> <width> <height>
 ```
 
-> Note: This repository only includes the **test set** for evaluating pretrained models.  
+> Note: This repository only includes the **test set** for evaluating our best models.  
 > For full dataset access (train/val), refer to the original NASA-IMPACT repo linked above.
 
 ---
@@ -80,15 +80,15 @@ This downloads `yolov8m.pt` and saves the trained model to:
 runs/detect/yolov8m_b16/weights/best.pt
 ```
 
-**The pretrained model is already available at the above path.**
+**The Best trained model is already available at the above path.**
 
-To evaluate the model:
+To evaluate that model:
 
 ```bash
 python src/eval_yolo.py
 ```
 
-To visualize the predictions:
+To visualize the model predictions:
 
 ```bash
 python src/vis_yolo.py
@@ -101,7 +101,7 @@ vis_outputs/
 ```
 ## Results & Performance
 
-The final model was trained for 100 epochs with YOLOv8m (`yolo11m.pt`) at 320×320 resolution using a confidence threshold of 0.1 and IoU threshold of 0.3.
+The final model was trained for 100 epochs with YOLOv8m (`yolov8m.pt`) at 320×320 resolution using a confidence threshold of 0.1 and IoU threshold of 0.3.
 
 
 | Metric           | Value   |
